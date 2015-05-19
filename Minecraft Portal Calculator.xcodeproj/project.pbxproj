@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C7533481B0BC2B200977DF2 /* background8.png in Resources */ = {isa = PBXBuildFile; fileRef = 8C7533471B0BC2B200977DF2 /* background8.png */; };
+		8C75334B1B0BC2CD00977DF2 /* PortalCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C75334A1B0BC2CD00977DF2 /* PortalCalculator.m */; };
+		8C7C71221A76CA5D000F0AC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7C71211A76CA5D000F0AC3 /* main.m */; };
+		8C7C71251A76CA5D000F0AC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7C71241A76CA5D000F0AC3 /* AppDelegate.m */; };
+		8C7C712D1A76CA5D000F0AC3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C7C712C1A76CA5D000F0AC3 /* Images.xcassets */; };
+		8C7C71471A76CA83000F0AC3 /* PortalCalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7C71461A76CA83000F0AC3 /* PortalCalculatorViewController.m */; };
+		8CD6605A1A83162900658EDD /* libGPUImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CD660551A8315EA00658EDD /* libGPUImage.a */; };
+		8CD6605C1A83164100658EDD /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CD6605B1A83164100658EDD /* CoreMedia.framework */; };
+		8CD6605E1A83164600658EDD /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CD6605D1A83164600658EDD /* CoreVideo.framework */; };
+		8CD660601A83164A00658EDD /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CD6605F1A83164A00658EDD /* OpenGLES.framework */; };
+		8CD660621A83164F00658EDD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CD660611A83164F00658EDD /* AVFoundation.framework */; };
+		8CD660641A83165500658EDD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CD660631A83165500658EDD /* QuartzCore.framework */; };
+		8CD660671A84666D00658EDD /* ModifiedTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD660661A84666D00658EDD /* ModifiedTextView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CD660541A8315EA00658EDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CD6604E1A8315E900658EDD /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BCF1A33414DDB1EC00852800;
+			remoteInfo = GPUImage;
+		};
+		8CD660561A8315EA00658EDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CD6604E1A8315E900658EDD /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BCE209E51943F20C002FEED8;
+			remoteInfo = GPUImageFramework;
+		};
+		8CD660581A83160F00658EDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CD6604E1A8315E900658EDD /* GPUImage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BCE209E41943F20C002FEED8;
+			remoteInfo = GPUImageFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C7533471B0BC2B200977DF2 /* background8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background8.png; sourceTree = "<group>"; };
+		8C7533491B0BC2CD00977DF2 /* PortalCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PortalCalculator.h; sourceTree = "<group>"; };
+		8C75334A1B0BC2CD00977DF2 /* PortalCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PortalCalculator.m; sourceTree = "<group>"; };
+		8C7C711C1A76CA5D000F0AC3 /* Minecalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Minecalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C7C71201A76CA5D000F0AC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C7C71211A76CA5D000F0AC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8C7C71231A76CA5D000F0AC3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8C7C71241A76CA5D000F0AC3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8C7C712C1A76CA5D000F0AC3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8C7C71451A76CA83000F0AC3 /* PortalCalculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PortalCalculatorViewController.h; sourceTree = "<group>"; };
+		8C7C71461A76CA83000F0AC3 /* PortalCalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PortalCalculatorViewController.m; sourceTree = "<group>"; };
+		8CD6604E1A8315E900658EDD /* GPUImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPUImage.xcodeproj; path = Vendor/GPUImage/GPUImage.xcodeproj; sourceTree = "<group>"; };
+		8CD6605B1A83164100658EDD /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		8CD6605D1A83164600658EDD /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		8CD6605F1A83164A00658EDD /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		8CD660611A83164F00658EDD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8CD660631A83165500658EDD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8CD660651A84666D00658EDD /* ModifiedTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModifiedTextView.h; sourceTree = "<group>"; };
+		8CD660661A84666D00658EDD /* ModifiedTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModifiedTextView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C7C71191A76CA5D000F0AC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD660641A83165500658EDD /* QuartzCore.framework in Frameworks */,
+				8CD660621A83164F00658EDD /* AVFoundation.framework in Frameworks */,
+				8CD660601A83164A00658EDD /* OpenGLES.framework in Frameworks */,
+				8CD6605E1A83164600658EDD /* CoreVideo.framework in Frameworks */,
+				8CD6605C1A83164100658EDD /* CoreMedia.framework in Frameworks */,
+				8CD6605A1A83162900658EDD /* libGPUImage.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C7C71131A76CA5D000F0AC3 = {
+			isa = PBXGroup;
+			children = (
+				8CD660631A83165500658EDD /* QuartzCore.framework */,
+				8CD660611A83164F00658EDD /* AVFoundation.framework */,
+				8CD6605F1A83164A00658EDD /* OpenGLES.framework */,
+				8CD6605D1A83164600658EDD /* CoreVideo.framework */,
+				8CD6605B1A83164100658EDD /* CoreMedia.framework */,
+				8CD6604E1A8315E900658EDD /* GPUImage.xcodeproj */,
+				8C7C711E1A76CA5D000F0AC3 /* Minecraft Portal Calculator */,
+				8C7C711D1A76CA5D000F0AC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C7C711D1A76CA5D000F0AC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C7C711C1A76CA5D000F0AC3 /* Minecalc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C7C711E1A76CA5D000F0AC3 /* Minecraft Portal Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				8C7C71231A76CA5D000F0AC3 /* AppDelegate.h */,
+				8C7C71241A76CA5D000F0AC3 /* AppDelegate.m */,
+				8C7533491B0BC2CD00977DF2 /* PortalCalculator.h */,
+				8C75334A1B0BC2CD00977DF2 /* PortalCalculator.m */,
+				8C7C71451A76CA83000F0AC3 /* PortalCalculatorViewController.h */,
+				8C7C71461A76CA83000F0AC3 /* PortalCalculatorViewController.m */,
+				8CD660651A84666D00658EDD /* ModifiedTextView.h */,
+				8CD660661A84666D00658EDD /* ModifiedTextView.m */,
+				8C7533471B0BC2B200977DF2 /* background8.png */,
+				8C7C712C1A76CA5D000F0AC3 /* Images.xcassets */,
+				8C7C711F1A76CA5D000F0AC3 /* Supporting Files */,
+			);
+			path = "Minecraft Portal Calculator";
+			sourceTree = "<group>";
+		};
+		8C7C711F1A76CA5D000F0AC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C7C71201A76CA5D000F0AC3 /* Info.plist */,
+				8C7C71211A76CA5D000F0AC3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8CD6604F1A8315E900658EDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CD660551A8315EA00658EDD /* libGPUImage.a */,
+				8CD660571A8315EA00658EDD /* GPUImage.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C7C711B1A76CA5D000F0AC3 /* Minecalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C7C713F1A76CA5D000F0AC3 /* Build configuration list for PBXNativeTarget "Minecalc" */;
+			buildPhases = (
+				8C7C71181A76CA5D000F0AC3 /* Sources */,
+				8C7C71191A76CA5D000F0AC3 /* Frameworks */,
+				8C7C711A1A76CA5D000F0AC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CD660591A83160F00658EDD /* PBXTargetDependency */,
+			);
+			name = Minecalc;
+			productName = "Minecraft Portal Calculator";
+			productReference = 8C7C711C1A76CA5D000F0AC3 /* Minecalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C7C71141A76CA5D000F0AC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Liana Chu";
+				TargetAttributes = {
+					8C7C711B1A76CA5D000F0AC3 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = WH2R553NPB;
+					};
+				};
+			};
+			buildConfigurationList = 8C7C71171A76CA5D000F0AC3 /* Build configuration list for PBXProject "Minecraft Portal Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C7C71131A76CA5D000F0AC3;
+			productRefGroup = 8C7C711D1A76CA5D000F0AC3 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8CD6604F1A8315E900658EDD /* Products */;
+					ProjectRef = 8CD6604E1A8315E900658EDD /* GPUImage.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8C7C711B1A76CA5D000F0AC3 /* Minecalc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		8CD660551A8315EA00658EDD /* libGPUImage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libGPUImage.a;
+			remoteRef = 8CD660541A8315EA00658EDD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8CD660571A8315EA00658EDD /* GPUImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GPUImage.framework;
+			remoteRef = 8CD660561A8315EA00658EDD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C7C711A1A76CA5D000F0AC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C7533481B0BC2B200977DF2 /* background8.png in Resources */,
+				8C7C712D1A76CA5D000F0AC3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C7C71181A76CA5D000F0AC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C7C71471A76CA83000F0AC3 /* PortalCalculatorViewController.m in Sources */,
+				8CD660671A84666D00658EDD /* ModifiedTextView.m in Sources */,
+				8C7C71251A76CA5D000F0AC3 /* AppDelegate.m in Sources */,
+				8C75334B1B0BC2CD00977DF2 /* PortalCalculator.m in Sources */,
+				8C7C71221A76CA5D000F0AC3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CD660591A83160F00658EDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GPUImageFramework;
+			targetProxy = 8CD660581A83160F00658EDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8C2848CA1A899E0100D301FE /* App Store Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Liana Chu (WH2R553NPB)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Liana Chu (WH2R553NPB)";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LLVM_LTO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "91a64c65-3bf2-4e11-9a83-1fa629960a64";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "App Store Distribution";
+		};
+		8C2848CB1A899E0100D301FE /* App Store Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Liana Chu (WH2R553NPB)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Liana Chu (WH2R553NPB)";
+				GCC_OPTIMIZATION_LEVEL = fast;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/**",
+				);
+				INFOPLIST_FILE = "Minecraft Portal Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LLVM_LTO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d9db61b9-85a1-4d80-843e-c1d9eb08295c";
+			};
+			name = "App Store Distribution";
+		};
+		8C7C713D1A76CA5D000F0AC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8C7C713E1A76CA5D000F0AC3 /* Instrumentation */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LLVM_LTO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Instrumentation;
+		};
+		8C7C71401A76CA5D000F0AC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/**",
+				);
+				INFOPLIST_FILE = "Minecraft Portal Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c4b1ec06-d7de-4bf4-b37e-dac3dd63e0d6";
+			};
+			name = Debug;
+		};
+		8C7C71411A76CA5D000F0AC3 /* Instrumentation */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Liana Chu (WH2R553NPB)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Liana Chu (WH2R553NPB)";
+				GCC_OPTIMIZATION_LEVEL = fast;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/**",
+				);
+				INFOPLIST_FILE = "Minecraft Portal Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LLVM_LTO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c4b1ec06-d7de-4bf4-b37e-dac3dd63e0d6";
+			};
+			name = Instrumentation;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C7C71171A76CA5D000F0AC3 /* Build configuration list for PBXProject "Minecraft Portal Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C7C713D1A76CA5D000F0AC3 /* Debug */,
+				8C7C713E1A76CA5D000F0AC3 /* Instrumentation */,
+				8C2848CA1A899E0100D301FE /* App Store Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Instrumentation;
+		};
+		8C7C713F1A76CA5D000F0AC3 /* Build configuration list for PBXNativeTarget "Minecalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C7C71401A76CA5D000F0AC3 /* Debug */,
+				8C7C71411A76CA5D000F0AC3 /* Instrumentation */,
+				8C2848CB1A899E0100D301FE /* App Store Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Instrumentation;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C7C71141A76CA5D000F0AC3 /* Project object */;
+}
